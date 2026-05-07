@@ -22,12 +22,6 @@ It lets users view lost items and report new ones through a basic form. Nothing 
 
 ---
 
-## Why I made this
-
-I wanted to practice building real-looking pages instead of just small code exercises. This helped me understand layouts, forms, and structuring a simple web project.
-
----
-
 ## What I want to improve next
 
 - Add JavaScript for interactions  
