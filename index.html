@@ -10,13 +10,24 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <!--hamburger sec for mobile-->
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul id="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#footer">Contact</a></li>
             </ul>
-        <a href="form/form.html" class="lost-btn">Report <span class="red-highlight">Lost</span> Item</a>
-        <a href="form/form.html" class="found-btn">Report <span class="green-highlight">Found</span> Item</a>
+
+            <div class="nav-btns"></div>
+                <a href="form/form.html" class="lost-btn">Report <span class="red-highlight">Lost</span> Item</a>
+                <a href="form/form.html" class="found-btn">Report <span class="green-highlight">Found</span> Item</a>
+            <div>
+
         </nav>
     </header>
     
@@ -25,6 +36,7 @@
         <p id="about">Connect with your community to reunite items with their owners</p>
         <input type="text" id="search-input" placeholder="Search items by name,description or location..">
         </section>
+
         <main>
         <div class="items-grid">
             <div class="card">
@@ -68,7 +80,7 @@
                 <p class="description">has aadhar card, 1500 in cash</p>
                 <p class="location">Near college library</p>
                 <p class="date">Apr 15, 2026</p>
-        </div>
+            </div>
         </div>
     </main>
    
@@ -76,10 +88,11 @@
         <div class="footer-container" id="footer">
             <p>&copy;Ferryn.</p>
             <div class="links">
-                <a href="https://www.linkedin.com/in/ferryn-preethy-78b518337/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" width="24"/>LinkedIn |</a>  <a href="https://github.com/Ferrynn" target="_blank"><img src="images/github.svg" alt="github" width="24"/>GitHub</a>
+                <a href="https://www.linkedin.com/in/ferryn-preethy-78b518337/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" width="24"/>LinkedIn |</a>
+                <a href="https://github.com/Ferrynn" target="_blank"><img src="images/github.svg" alt="github" width="24"/>GitHub</a>
             </div>
         </div>
     </footer>
-   
+   <script src="script.js" defer></script>
 </body>
 </html>
